@@ -1,4 +1,4 @@
-<style > .bd-placeholder-img {
+.bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
   -webkit-user-select: none;
@@ -134,13 +134,9 @@ h1 {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-@media screen and (max-width: 1100px) {
-  .member-card {
-    width: calc(90% - 50px);
-    max-width: 400px;
-  }
-  .member-pic {
-    width: calc(90% - 50px);
-    max-width: 400px;
+@media screen and (max-width: 800px) {
+  .member-card img {
+    width: 100px;
+    height: 100px;
   }
 }
